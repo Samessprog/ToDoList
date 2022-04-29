@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html class="height-max">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Do To List</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      media="screen"
+      href="css/fontello.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body class="height-max">
+    <nav>
+      <div>
+        <h1 class="p-l-10">My to do list</h1>
+      </div>
+    </nav>
+    <div id="noticesContainer" class="noti"></div>
+    <main class="f-c align-center bg-gray height-max over-hid">
+      <div class="p-10 wid-20 over-scr height-max">
+        <div>
+          <button id="createNormal">Normal</button>
+          <button id="createAlert">Alert</button>
+          <button id="createWarning">Warning</button>
+          <button id="createSucces">Succes</button>
+        </div>
+        <h1>Tasks</h1>
+        <div class="f-c" id="taskList">
+          <div class="m-10 f-r bg-white p-10 b-r-7">
+            <input
+              class="b-r-7 max-width"
+              type="text"
+              placeholder="Task name "
+              id="addTaskName"
+            />
+            <input
+              class="b-r-7 max-width"
+              type="text"
+              placeholder="Title name"
+              id="addTaskNames"
+            />
+            <button class="font-color-darko" id="addTask">
+              <i class="demo-icon icon-plus-circle"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+  <script src="./js/main.js" type="module"></script>
+</html>
